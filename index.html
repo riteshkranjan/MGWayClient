@@ -1,31 +1,57 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 
-<html class="no-js"> 
-<head>
+	<html> 
+	  <head>
+	    <title>MGWay Client</title>
+	    
+		    <link data-require="bootstrap@*" data-semver="4.0.5" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" />
+		    <script data-require="bootstrap@*" data-semver="4.0.5" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+		    <script data-require="angular.js@*" data-semver="2.0.0" src="https://code.angularjs.org/2.0.0-snapshot/angular2.js"></script>
+		    <script data-require="angular-route@*" data-semver="1.5.8" src="https://code.angularjs.org/1.5.8/angular-route.js"></script>
+		    <link rel="stylesheet" href="https://bootswatch.com/slate/bootstrap.min.css" />
+		    <script src="script.js"></script>
+	  </head>
 
-    <title>MGWay Client</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="description" content="MGWay Client">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/main.css">
-
-</head>
-<body ng-app="tutorialWebApp">
-
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
-
-<script src="js/main.js"></script>
-
-</body>
-</html>
+	
+  	<body>
+  	  <div class="container-fluid">
+  		    <div class="row">
+  			  <div class="col-xs-12">
+  			    <h1><span class="glyphicon glyphicon-eye-open" style="color:red"></span> Mobility Gateway EAS2.0</h1>
+  			  </div>
+  			</div>
+  		
+  			<div class="row">
+  			  	<div class="col-xs-12">
+	    			<ul class="nav nav-tabs">
+	              		<li role="presentation" class="active"><a href="#">ASG Portal</a></li>
+	              		<li role="presentation"><a href="#">Demo</a></li>
+	              		<li role="presentation"><a href="#">Design</a></li>
+	            	</ul>
+          		</div>
+        	</div>
+        
+        	<div class="row">
+          		<div class="col-xs-3">
+            		<!-- <ul class="nav nav-pills nav-stacked">
+            		               			<li role="presentation" class="active"><a href="#">Function Metadata</a></li>
+            		              			<li role="presentation"><a href="#">System Health</a></li>
+            		                   	</ul> -->
+          		</div>
+        
+        		<div class="col-xs-9">
+					<table class="table table-striped table-hover">
+						<tr>
+							<th>Function ID</th>
+							<th>Function Name</th>
+							<th>Enabled</th>
+							<th>Mode</th>
+							<th>Wait Time</th>
+							<th>Time out</th>
+						</tr>	
+					</table>
+				</div>
+			</div>
+        </div>
+  	</body>
+	</html>
